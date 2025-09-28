@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(venv/bin/pip install:*)",
+      "Bash(venv/Scripts/pip list:*)",
+      "Bash(findstr:*)",
+      "Bash(venv/bin/pip list:*)",
+      "mcp__ide__getDiagnostics"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
